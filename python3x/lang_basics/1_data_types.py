@@ -14,27 +14,26 @@ print(id(c))
 print(id(d))
 print(id(e))
 
-
 print(type(a))
-print(type(b)) 
+print(type(b))
 print(type(c))
 print(type(d))
 print(type(e))
-
 
 "in python 3, int is only available for int and long"
 f = 12121212121212123332232
 print(id(f))
 print(type(f))
 
-"""int can be represented in four forms
-	decimal form(base-10)
-	binary form (base-2)
-	octal form (base-8)
-	hexadecimal form(base-16)
-	To represent a number in binary form - Prefix with 0b or 0B
-	To represent a number in octal form - Prefix with 0o or 0O
-	To represent a number in hex form - Prefix with 0x or 0X
+"""
+   int can be represented in four forms
+   decimal form(base-10)
+   binary form (base-2)
+   octal form (base-8)
+   hexadecimal form(base-16)
+   To represent a number in binary form - Prefix with 0b or 0B
+   To represent a number in octal form - Prefix with 0o or 0O
+   To represent a number in hex form - Prefix with 0x or 0X
 """
 aa = 10
 print("binary form of aa=10")
