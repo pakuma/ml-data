@@ -1,0 +1,15 @@
+#Initial Setup for Hadoop Config Files
+
+###Files to be updated (hadoop_dir/etc/hadoop/)
+
+	-	core-site.xml
+	-	hdfs-site.xml
+	-	mapred-site.xml
+	-	yarn-site.xml
+
+### Commands to Start HDFS/Yarn
+	*<ssh localhost> test before and create proper ssh keys as needed
+
+	'sbin/start-dfs.sh'
+
+	'sbin/start-yarn.sh'
