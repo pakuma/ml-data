@@ -10,6 +10,9 @@
 ### Commands to Start HDFS/Yarn
 	*<ssh localhost> test before and create proper ssh keys as needed
 
-	'sbin/start-dfs.sh'
+#### Starting services (first time)
+	`bin/hdfs namenode format`
 
-	'sbin/start-yarn.sh'
+	`sbin/start-dfs.sh`
+
+	`sbin/start-yarn.sh`
