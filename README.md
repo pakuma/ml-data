@@ -1,2 +1,3 @@
 # Data Processing
-# AI || Machine Learning
+# Machine Learning
+# AI
